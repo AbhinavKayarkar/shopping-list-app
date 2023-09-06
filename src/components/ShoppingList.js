@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
 
 function ShoppingList() {
   const [list, setList] = useState({ item: "", quantity: "" });
