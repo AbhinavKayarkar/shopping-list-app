@@ -81,6 +81,7 @@ function ShoppingList() {
             placeholder="Please enter the quantity"
             value={list.quantity}
             onChange={handleChange}
+            min='1'
             required
           ></input>
         </div>
